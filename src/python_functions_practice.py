@@ -12,3 +12,6 @@ def multiply(a,b):
 
 def divide(a,b):
     return a / b
+
+def length_of_string(a):
+    return len(a)
