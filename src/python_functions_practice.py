@@ -23,7 +23,9 @@ def add_string_as_number(a,b):
     return int(a) + int(b)
 
 months = {
-    1 : "January"
+    1 : "January",
+    3 : "March",
+    9 : "September"
 }
 
 def number_to_full_month_name(a):
