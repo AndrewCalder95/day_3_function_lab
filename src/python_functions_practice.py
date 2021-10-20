@@ -21,3 +21,10 @@ def join_string(a, b):
 
 def add_string_as_number(a,b):
     return int(a) + int(b)
+
+months = {
+    1 : "January"
+}
+
+def number_to_full_month_name(a):
+    return months[a]
