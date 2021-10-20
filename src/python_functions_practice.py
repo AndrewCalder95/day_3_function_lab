@@ -18,3 +18,6 @@ def length_of_string(a):
 
 def join_string(a, b):
     return f"{a}{b}"
+
+def add_string_as_number(a,b):
+    return int(a) + int(b)
