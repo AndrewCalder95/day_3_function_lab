@@ -32,6 +32,5 @@ def number_to_full_month_name(a):
     return months[a]
 
 def number_to_short_month_name(a):
-    x = slice(3)
-    y = months[a]
-    return (x(y))
+    var = (months[a])
+    return (var[0:3])
